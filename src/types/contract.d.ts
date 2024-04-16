@@ -1,0 +1,32 @@
+export interface ContractProps {
+  id?: string
+  nrInst: string
+  nrAgencia: string
+  cdClient: string
+  nmClient: string
+  nrCpfCnpj: string
+  nrContrato: string
+  dtContrato: Date
+  qtPrestacoes: number
+  vlTotal: number
+  cdProduto: string
+  dsProduto: string
+  cdCarteira: string
+  dsCarteira: string
+  nrProposta: string
+  nrPresta: string
+  tpPresta: string
+  nrSeqPre: string
+  dtVctPre: Date
+  vlPresta: number
+  vlMora: number
+  vlMulta: number
+  vlOutAcr: number
+  vlIof: number
+  vlDescon: number
+  vlAtual: number
+  idSituac: string
+  idSitVen: string
+  created_at: Date
+  validate?: string
+}
